@@ -2,7 +2,12 @@
 
 This repository documents a pipeline used for taxonomic profiling of human gut metagenomes in the publication "Cosmopolitan gut bacteriophages expand the phenotype of health-related bacteria".
 
-### 1. Environment installation
+# Software
+XXX
+
+XXX
+
+### 1. Environment Setup
 Make a copy of the repository:
 ```
 git clone https://github.com/rozwalak/Mushuviridae_profiling.git
@@ -16,12 +21,18 @@ gunzip ./sylph_tax_metadata/*.gz
 XXX
 ```
 
-Install and activate conda environment:
+Install and activate the conda environment:
 ```
 conda env create -f environment.yml
 
 conda activate sylph_profiling
 ```
+### 2. Generating taxonomic profiles 
+To run sylph three input files are necessary:
+- database (default: sylph_100c_db.syldb with 102,336 species-like vOTUs and 4,744 prokaryotic-species representatives from UHGG v2.0.2)
+and metadata with taxonomic information: 
+- all_phage_genomes_taxo.tsv
+- uhgg2_metadata.tsv
 
 Run pipeline on the test dataset:
 

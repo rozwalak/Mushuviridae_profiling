@@ -12,7 +12,7 @@ Required:
 
 Optional:
   -j, --jobs    <int>    Max parallel jobs          (default: MAX_JOBS in config, else 8)
-  -r, --results <dir>    Results directory           (default: RESULTS_DIR in config, else ./results_3)
+  -r, --results <dir>    Results directory           (default: RESULTS_DIR in config, else ./results)
   -D, --data-dir <dir>   Data base directory         (default: DATA_DIR in config, else ./data)
   -l, --logs    <dir>    Logs directory              (default: LOGS_DIR in config, else ./logs)
   -h, --help             Show this help message

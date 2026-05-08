@@ -18,7 +18,7 @@ cd Mushuviridae_profiling
 
 gunzip ./sylph_tax_metadata/*.gz
 
-XXX
+wget -O sylph_100c_db.syldb "https://zenodo.org/records/20084670/files/sylph_100c_db.syldb?download=1"
 ```
 
 Install and activate the conda environment:

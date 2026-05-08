@@ -1,6 +1,6 @@
 # Taxonomic profiling of low-abundant phages
 
-This repository documents a pipeline used for taxonomic profiling of human gut metagenomes in the publication "Cosmopolitan gut bacteriophages expand the phenotype of health-related bacteria".
+This repository documents a pipeline used for phage-inclusive taxonomic profiling of human gut metagenomes in the publication "Cosmopolitan gut bacteriophages expand the phenotype of health-related bacteria".
 
 # Software
 XXX
@@ -40,3 +40,7 @@ bash pipeline.sh --input test.csv --config config.cfg
 ```
 
 Run pipeline on the full dataset: 
+
+```
+bash pipeline.sh --input all_accessions.csv --config config.cfg
+```

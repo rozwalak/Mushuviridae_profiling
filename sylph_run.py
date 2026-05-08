@@ -21,7 +21,7 @@ def run_sylph_processing(args):
     """Sketch and profile a single sample with sylph."""
     study_name, sample_id, database_path, data_root = args
 
-    results_dir = Path("results_3") / study_name
+    results_dir = Path("results") / study_name
     results_dir.mkdir(parents=True, exist_ok=True)
 
     sample_dir = find_sample_directory(study_name, sample_id, data_root)

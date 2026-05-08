@@ -4,3 +4,6 @@ This repository documents a pipeline used for taxonomic profiling of human gut m
 
 ### 1. Environment installation
 
+```
+conda env create -f environment.yml
+```

@@ -11,7 +11,7 @@ Unpack metadata files and download the sylph database from Zenodo:
 ```
 cd Mushuviridae_profiling
 
-gunzip /sylph_tax_metadata/*
+gunzip ./sylph_tax_metadata/*.gz
 
 XXX
 ```

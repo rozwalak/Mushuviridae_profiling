@@ -27,7 +27,7 @@ conda env create -f environment.yml
 
 conda activate sylph_profiling
 ```
-### 2. Generating taxonomic profiles 
+### 2. Taxonomic Profiles Generation
 To run sylph three input files are necessary:
 - database (default: sylph_100c_db.syldb with 102,336 species-like vOTUs and 4,744 prokaryotic-species representatives from UHGG v2.0.2) 
 - metadata with taxonomic info about phages (all_phage_genomes_taxo.tsv)

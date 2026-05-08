@@ -9,3 +9,6 @@ git clone https://github.com/rozwalak/Mushuviridae_profiling.git
 ```
 conda env create -f environment.yml
 ```
+```
+conda activate sylph_profiling
+```

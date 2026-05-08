@@ -4,7 +4,7 @@ This repository documents a pipeline used for taxonomic profiling of human gut m
 
 ### 1. Environment installation
 ```
-git clone
+git clone https://github.com/rozwalak/Mushuviridae_profiling.git
 ```
 ```
 conda env create -f environment.yml

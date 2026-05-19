@@ -30,8 +30,8 @@ conda activate sylph_profiling
 # Generating taxonomic profiles
 To run sylph, three input files are necessary:
 - sylph database (sylph_100c_db.syldb with 102,336 species-like vOTUs and 4,744 prokaryotic-species representatives from UHGG v2.0.2). 
-- metadata with taxonomic info about phages (all_phage_genomes_taxo.tsv).
-- metadata with taxonomic info about bacteria (uhgg2_metadata.tsv).
+- metadata with taxonomic info about phages (sylph_tax_metadata/all_phage_genomes_taxo.tsv).
+- metadata with taxonomic info about bacteria (sylph_tax_metadata/uhgg2_metadata.tsv).
 
 Run pipeline on the test dataset (< 1 minute):
 

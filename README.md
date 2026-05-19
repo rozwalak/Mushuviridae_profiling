@@ -44,3 +44,5 @@ Run pipeline on the full dataset:
 ```
 bash pipeline.sh --input all_accessions.csv --config config.cfg
 ```
+
+The expected output is a /results folder containing subfolders named after study_name, and Sylph output files named after sample_id as defined in the input CSV file.

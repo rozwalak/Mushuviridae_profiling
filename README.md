@@ -33,13 +33,13 @@ To run sylph, three input files are necessary:
 - metadata with taxonomic info about phages (all_phage_genomes_taxo.tsv).
 - metadata with taxonomic info about bacteria (uhgg2_metadata.tsv).
 
-Run pipeline on the test dataset:
+Run pipeline on the test dataset (< 1 minute):
 
 ```
 bash pipeline.sh --input test.csv --config config.cfg
 ```
 
-Run pipeline on the full dataset: 
+Run pipeline on the full dataset (weeks, depending on available resources): 
 
 ```
 bash pipeline.sh --input all_accessions.csv --config config.cfg

@@ -21,7 +21,7 @@ gunzip ./sylph_tax_metadata/*.gz
 wget -O sylph_100c_db.syldb "https://zenodo.org/records/20084670/files/sylph_100c_db.syldb?download=1"
 ```
 
-Install and activate the conda environment:
+Install and activate the conda environment (< 3 minutes):
 ```
 conda env create -f environment.yml
 
